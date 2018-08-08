@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/but"
+    tools:context=".Help">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/helpHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            android:gravity="center"
+            android:textColor="@color/red"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This apps only for shop manager \n who use this apps for their shop management."
+            android:textSize="17dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/maintheam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Using this apps its simple, frist instal apps\n and entry your product name then entry\n buying price and selling price."
+            android:textSize="17dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Then you go to previous history and select \n your date then you find your PDF.\n This PDF you can share and print.\n We work in PDF apps and any other apps.\nYou can contact with us by using \n About us section."
+            android:textSize="17dp"
+            android:textIsSelectable="true"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

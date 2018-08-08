@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/but"
+    tools:context=".AboutUS">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Appistic IT"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact us for Pro-Version .\n If you need any kind of apps to fixed \n just contact with you."
+            android:textSize="17dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/maintheam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Head Office: Appstic It,Level- 2, \n Rangmohal Towre, Sylhet"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile : 01714217317, 01626926214  \n Web : www.appsticit.com"
+            android:textSize="17dp"
+            android:textIsSelectable="true"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
